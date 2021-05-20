@@ -10,9 +10,8 @@ public class Factorial {
             return (n* factorial(n-1));
     }
     }
-}
-class Main
-{
+
+
     public static void main(String args[])
     {
         double fact= factorial(5);
