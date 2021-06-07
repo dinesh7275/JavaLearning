@@ -18,6 +18,7 @@ class RecursionUnderstanding {
 
     public static void main( String args[] ) {
         // Recursive method called here
+
         printNum(6);
     }
 }

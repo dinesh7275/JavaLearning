@@ -1,7 +1,5 @@
 package recursion;
 
-import static recursion.Factorial.factorial;
-
 public class Factorial {
     public static double factorial(double n) {
         if (n == 1)

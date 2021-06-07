@@ -7,8 +7,6 @@ public class IndirectRecursion {
             System.out.print(n + " ");
             n++;
             ir2();
-        } else {
-            return;
         }
     }
 
@@ -18,9 +16,7 @@ public class IndirectRecursion {
             n++;
             ir1();
         }
-        else {
-            return;
-        }
+
     }
     public static void main(String args[])
     {
